@@ -2,7 +2,7 @@
 
 # Instructions
 
-1. Add the ".env" file to the project directory
+1. Add the ".env" file with the neccessary connection strings and secret keys to the project directory
 
 2. Run below commands one by one from the project directory to install the packages
 ### `npm install`
