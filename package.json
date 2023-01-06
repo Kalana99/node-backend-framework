@@ -9,7 +9,8 @@
     "test": "jest",
     "test_force_exit": "jest --forceExit",
     "test_detectOpenHandles": "jest --detectOpenHandles",
-    "test_mocha": "mocha --recursive --exit"
+    "test_mocha": "mocha --recursive --exit",
+    "update_dep": "npm i -g npm-check-updates && ncu -u && npm install"
   },
   "repository": {
     "type": "git",
