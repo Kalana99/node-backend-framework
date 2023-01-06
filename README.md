@@ -4,7 +4,10 @@
 
 1. Add the ".env" file with the neccessary connection strings and secret keys to the project directory
 
-2. Run below commands one by one from the project directory to install the packages
+2. Run below command from the project directory to update the server dependencies to their latest versions
+###`npm run update_dep`
+
+3. Run below commands one by one from the project directory to install the packages
 ### `npm install`
 ### `npm run install-client`
 
