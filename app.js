@@ -26,7 +26,7 @@ const makeApp = () => {
         next();
     });
 
-    // set static file path for productioin build
+    // set static file path for production build
     if (process.env.NODE_ENV === 'production') {
         app.use(express.static('client/build'));
     }
@@ -38,7 +38,7 @@ const makeApp = () => {
 
     //root path
     app.get('/', (req, res) => {
-        res.send("Welcome to Fast-Fueler Back-End!");
+        res.send("Welcome...!");
     });
 
     //routes
